@@ -5,9 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" type="image/png" href="https://bahroel0.github.io/images/favicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto|Varela+Round|Yeon+Sung&display=swap" rel="stylesheet">
   <title>Bahrul Amaruddin</title>
 </head>
 <body>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad vero impedit consectetur nulla quaerat quibusdam laudantium ut inventore sunt ea nihil, non voluptates numquam quasi facere, delectus hic repellendus.</p>
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarToogle" aria-controls="navbarToogle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand grey--text ml-3 sweet--text">Bahrul Amaruddin</a>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToogle">
+      <div class="d-none d-md-block">
+        <a class="navbar-brand grey--text">Bahrul Amaruddin</a>
+      </div>
+      <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Project</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Achievement</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>      
+  </nav>
+  <div class="jumbotron">
+    <img src="./images/ilustration/undraw_Hello_qnas.svg" class="d-block w-100 mb-5" alt="Carousel Image One">
+    <div class="welcome-message sweet--text mt-5">
+      <strong>I'm Bahroel0</strong>
+      <br>
+      <strong>full stack software developer</strong>
+    </div>
+  </div>
+  <div class="container">
+    <div class="about">
+        <img src="./images/ilustration/undraw_coding_6mjf.png" alt="My Picture" class="img-about">
+        <div>
+          <p class="varela--text h1 primary--text">Hi.</p>
+        </div>
+        <div class="about-description">
+          <p class="h4">
+            I'm a full stack software developer in Surabaya, Indonesia. I have a passion for develop web and mobile applications.
+          </p>
+        </div>
+    </div>
+    <div class="headline">
+      <p class="varela--text">What I can do</p>
+    </div>
+    <div class="can-do">
+      <div class="can-do-box">
+        <img src="./images/ilustration/undraw_analytics_5pgy.svg" alt="My Picture">
+        <div class="text-left ml-3">
+          <strong class="h4 varela--text">Analytics your requirement</strong>
+          <br>
+          <span class="h5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae aliquid repellendus consequuntur doloribus cum eaque officiis voluptate at. Iste, tenetur! Aperiam quos nisi quidem quod quibusdam, nam expedita sit.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+    window.onscroll = function() {
+      scrollFunction()
+    };
+    function scrollFunction() {
+      if (window.pageYOffset > 50) {
+        document.getElementById("navbar").style.top = 0;
+      } else {
+        document.getElementById("navbar").style.top = "-70px";
+      }
+    }
+  </script>
 </body>
 </html>
