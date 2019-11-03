@@ -54,6 +54,10 @@
 .white--text {
   color: #ffffff !important;
 }
+.text-none {
+  text-decoration: none;
+}
+
 .content {
   height: 150vh;
 }
@@ -121,4 +125,8 @@
 }
 .justify-center {
   text-align: justify;
+}
+
+.footer {
+  background-color: #4FC3F7;;
 }
