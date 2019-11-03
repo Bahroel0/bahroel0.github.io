@@ -12,7 +12,6 @@
 
  .jumbotron {
    height: 100vh;
-   width: 100vw;
    background-color: #4FC3F7;
    border-radius: 0px !important;
  }
@@ -48,6 +47,9 @@
 }
 .primary--text {
   color: #4FC3F7 ;
+}
+.primary-dark--text {
+  color: #00B0FF;
 }
 .white--text {
   color: #ffffff !important;
@@ -85,6 +87,7 @@
   border: none;
 }
 .about {
+  width: 100%;
   text-align: center;
 }
 
@@ -94,15 +97,14 @@
 }
 
 .about-description {
-  width: 500px;
+  width: 75%;
   margin: auto;
 }
 
 .headline {
   width: 100%;
   text-align: center;
-  font-size: 3vw;
-  margin-top: 200px;
+  margin-top: 15vh;
 }
 
 .can-do {
@@ -110,11 +112,13 @@
   text-align: center;
 }
 .can-do-box{
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
-  vertical-align: middle;
 }
 .can-do-box img {
-  width: 30%;
+  width: 50%;
+}
+.justify-center {
+  text-align: justify;
 }
