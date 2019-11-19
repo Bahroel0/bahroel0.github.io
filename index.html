@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto|Varela+Round|Yeon+Sung&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="https://bahroel0.github.io/images/favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" type="image/png" href="https://bahroel0.github.io/images/favicon.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/main.css">
-  <link href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto|Varela+Round|Yeon+Sung&display=swap" rel="stylesheet">
   <title>Bahrul Amaruddin</title>
 </head>
-<body>
-  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarToogle" aria-controls="navbarToogle" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      <a class="navbar-brand grey--text ml-3 roboto--text">Bahrul Amaruddin</a>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarToogle">
-      <div class="d-none d-md-block">
-        <a class="navbar-brand grey--text">Bahrul Amaruddin</a>
+<body id="#home" class="scrollspy">
+  <!-- <div class="navbar-fixed"> -->
+    <nav id="navbar" class="light-blue lighten-1">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Bahrul Amaruddin</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
       </div>
-      <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Project</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Achievement</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-        </ul>
-    </div>      
-  </nav>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Achievements</a></li>
+      <li><a href="#">Blogs</a></li>
+    </ul>
+  <!-- </div> -->
   <div class="jumbotron">
     <img src="./images/ilustration/undraw_Hello_qnas.svg" class="d-block w-100 mb-5" alt="Carousel Image One">
     <div class="welcome-message sweet--text mt-5">
@@ -41,141 +40,53 @@
       <br>
       <strong>full stack software developer</strong>
     </div>
+    <div id="show-more">
+      <a class="waves-effect waves-teal btn-flat" id="btn-more">
+        <i class="large material-icons right">expand_more</i>
+        More about me
+      </a>
+    </div>
   </div>
   <div class="container">
-    <div class="about">
-        <img src="./images/ilustration/undraw_coding_6mjf.png" alt="My Picture" class="img-about">
-        <div>
-          <p class="varela--text h1 primary-dark--text">Hi.</p>
-        </div>
-        <div class="about-description">
-          <p class="h4">
-            I'm a full stack software developer in Surabaya, Indonesia. I have a passion for develop web and mobile applications.
-          </p>
-        </div>
-    </div>
-    <div class="headline">
-      <div class="row">
-        <div class="col">
-          <p class="varela--text h1 primary-dark--text">What I can do</p>
-        </div>
+    <div class="col s12 m12 l12 xl12 text-center">
+      <img src="./images/ilustration/undraw_coding_6mjf.png" alt="My Picture" class="img-about">
+      <div>
+        <h5 class="varela--text scrollspy" id="me">Hi.</h5>
+      </div>
+      <div class="about-description">
+        <h6>
+          I'm a full stack software developer in Surabaya, Indonesia. I have a passion for develop web and mobile applications.
+        </h6>
       </div>
     </div>
-    <div class="can-do">
-      <div class="can-do-box mt-5">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <img src="./images/ilustration/undraw_analytics_5pgy.svg" alt="My Picture">
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3">
-            <div class="text-left ml-3">
-              <strong class="h4 varela--text primary--text">Analytics your requirement</strong>
-              <br>
-              <p class="h5 text-justify mt-3">
-                Tell me about your problem or whatever you want, I will do an analysis about it.  
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="can-do-box mt-5">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3">
-              <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-block d-sm-block d-md-none">
-                  <img src="./images/ilustration/undraw_selecting_1lx3.svg" alt="My Picture">
-              </div>
-            <div class="text-left ml-3">
-              <strong class="h4 varela--text primary--text">Offer several of solutions </strong>
-              <br>
-              <p class="h5 text-justify mt-3">
-                Based on my analysis, I will offer some of the best solutions that you can choose.
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-none d-md-block">
-              <img src="./images/ilustration/undraw_selecting_1lx3.svg" alt="My Picture">
-          </div>
-        </div>
-      </div>
-      <div class="can-do-box mt-5">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-              <img src="./images/ilustration/undraw_programming_2svr.svg" alt="My Picture">
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3">
-            <div class="text-left ml-3">
-              <strong class="h4 varela--text primary--text">Build your applications</strong>
-              <br>
-              <p class="h5 text-justify mt-3">
-                The option you have chosen will be built earnestly
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="can-do-box mt-5">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-block d-sm-block d-md-none">
-              <img src="./images/ilustration/undraw_report_mx0a.svg" alt="My Picture">
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3">
-            <div class="text-left ml-3">
-              <strong class="h4 varela--text primary--text">Present progress until complete</strong>
-              <br>
-              <p class="h5 text-justify mt-3">
-                You can monitor the progress of your application in a simple way
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-none d-md-block">
-              <img src="./images/ilustration/undraw_report_mx0a.svg" alt="My Picture">
-          </div>
-        </div>
-      </div>
+    <div class="col s12 m12 l12 xl12 text-center mt-5">
+        <h2 class="varela--text">What I can do</h2>
     </div>
-    <div class="headline">
-      <div class="row">
-        <div class="col">
-          <p class="varela--text h1 primary-dark--text">I can help</p>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col-8 col-sm-8 col-md-8 col-xl-8 offset-2">
-          <p class="h5">If you have an idea that you want to get started, think you need to collaborate with me or just want to say hello, then get in touch.</p>
-          <br>
-          <button type="button" class="btn btn-info">
-            <a href="https://api.whatsapp.com/send?phone=6289696767149" class="white--text text-none">Send me message</a>
-          </button>
-        </div>
-      </div>
+    <div class="mt-5">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt facere, vero odit fugit impedit, beatae consequatur necessitatibus minima amet ullam. Nobis error nostrum omnis neque commodi sunt atque est.</p>
     </div>
+    <div class="mt-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt facere, vero odit fugit impedit, beatae consequatur necessitatibus minima amet ullam. Nobis error nostrum omnis neque commodi sunt atque est.</p>
+      </div>
+      <div class="mt-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt facere, vero odit fugit impedit, beatae consequatur necessitatibus minima amet ullam. Nobis error nostrum omnis neque commodi sunt atque est.</p>
+        </div>
+        <div class="mt-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt facere, vero odit fugit impedit, beatae consequatur necessitatibus minima amet ullam. Nobis error nostrum omnis neque commodi sunt atque est.</p>
+          </div>
   </div>
-  <div class="footer">
-    <div class="container pt-3">
-      <div class="row">
-        <div class="col-2 offset-3 text-center">
-            <a href="https://github.com/Bahroel0" target="__blank"><span class="mdi mdi-48px mdi-github-box white--text"></span></a>
-        </div>
-        <div class="col-2 text-center">
-            <a href="https://medium.com/@bahrul123amaruddin" target="__blank"><span class="mdi mdi-48px mdi-medium white--text"></span></a>
-        </div>
-        <div class="col-2 text-center">
-            <a href="https://www.linkedin.com/in/bahrul-amaruddin" target="__blank"><span class="mdi mdi-48px mdi-linkedin-box white--text"></span></a>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col text-center">
-            <p class="white--text">© 2019 All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav)
+
+    document.getElementById('btn-more').addEventListener('click', () => window.scrollTo({
+      top: 900,
+      behavior: 'smooth',
+    }));
+
     window.onscroll = function() {
       scrollFunction()
     };
